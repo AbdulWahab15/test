@@ -276,7 +276,7 @@ class _SearchScreenState extends State<SearchScreen> {
           value: 3,
           child: Row(
             children: [
-              Icon(Icons.account_balance_wallet_outlined),
+              Icon(Icons.apartment),
               SizedBox(width: 6),
               Text('Infrastructure'),
             ],
