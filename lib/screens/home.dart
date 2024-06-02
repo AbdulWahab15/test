@@ -16,7 +16,9 @@ class _HomeScreenState extends State<HomeScreen>
   static const _itemSlideTime = Duration(milliseconds: 300);
   static const _staggerTime = Duration(milliseconds: 100);
 
-  final _animationDuration = _initialDelayTime + (_staggerTime * 4);
+  final _animationDuration = _initialDelayTime +
+      (_staggerTime * 4) +
+      const Duration(milliseconds: 550);
 
   late AnimationController _staggeredController;
   final List<Interval> _itemSlideIntervals = [];
