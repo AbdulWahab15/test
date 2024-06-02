@@ -16,7 +16,7 @@ class SearchScreen extends StatefulWidget {
 class _SearchScreenState extends State<SearchScreen> {
   static const CameraPosition _kGooglePlex = CameraPosition(
     target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14.4746,
+    zoom: 16,
   );
   late List<MarkerData> _customMarkers;
   late List<MarkerData> _customMarkers1;
@@ -24,11 +24,11 @@ class _SearchScreenState extends State<SearchScreen> {
 
   var controller = TextEditingController();
   final locations = const [
-    LatLng(37.42796133580664, -122.085749655962),
-    LatLng(37.42796133580664, -122.085749655960),
-    LatLng(37.42796133580664, -122.085749655958),
-    LatLng(37.42796133580664, -122.085749655959),
-    LatLng(37.42796133580664, -122.085749655963),
+    LatLng(37.4279613358066, -122.085749655962),
+    LatLng(37.43096133580664, -122.082749655962),
+    LatLng(37.42896133580672, -122.083749655962),
+    LatLng(37.42996133580680, -122.084749655962),
+    LatLng(37.42696133580690, -122.086749655962),
   ];
 
   @override
